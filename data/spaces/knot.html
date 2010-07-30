@@ -1,0 +1,78 @@
+<HTML>
+<HEAD>
+<TITLE>Furch's knotted hole ball</TITLE></HEAD>
+
+<BODY>
+<H1>Furch's knotted hole ball</H1>
+
+<DL>
+<DT>記述</DT>
+<DD>
+Shellableでない球体の三角形分割として有名なものの１つで、Furch
+(1924)による。これは、「1辺からなる結ばったspanning arcを1次元
+骨格中に持つような3次元球体の三角形分割はshellableでない」という
+定理に基づいていてい、このような1辺からなる結ばったspanning arc
+をうまく3次元球体の三角形分割の中に実現する構成法である。
+<BR>
+「結ばったspanning arc」については下の右図参照。球体に含まれる
+自己交差のない曲線で、その両端点が球体の境界にあるものをspanning arc
+といい、絵のように結ばっているものを結ばったspanning arcと呼んでいる。
+<CENTER><IMG src="knotted_edge.gif" width=654 height=368></CENTER>
+上の左図で、小さい立方体を積み上げて大きい立方体を作り、下の面から
+上の面に向けて穴を掘っていく。このとき途中に結び目を作るようにする。
+穴が上の面に貫通する一歩手前で止めておくと、この物体は球体と同相で
+あるままになるが、このとき、同相写像で右図の球体に写すことを考えると
+左図の太く書いてある1辺が右図の結ばったspanning arcになっている。
+(各々の小さい立方体を図の下にあるような形で６個の単体に切り分ける
+ことによって三角刑分割になる。)
+
+<P>
+ここで与えているデータはこの構成法をした上で、余分な単体を取り除く
+ことで面の数を若干節約したものである。380頂点、1172ファセットを
+要している。
+
+</DD>
+<DT>組合せ分割に関して</DT>
+<DD>
+もともと「shellableでない球体の三角形分割」として知られる例であるが、
+実はより強く、constructibleでもないことを示すことが出来る。
+ここでの構成法では、「１辺からなる」結ばったspanning arc
+がある場合という条件になっているが、２辺からなる結ばったspanning arc
+がある場合もconstructibleでないことを示されている。
+</DD>
+<DT>データ</DT>
+<DD>
+<A href="knot.dat">knot.dat</A>
+</DD>
+<DT>表</DT>
+<DD>
+<TABLE BORDER>
+<TR><TD>vertex decomposable?</TD><TD>no</TD></TR>
+<TR><TD>extendably shellable?</TD><TD>no</TD></TR>
+<TR><TD>shellable?</TD><TD>no</TD></TR>
+<TR><TD>constructible?</TD><TD>no</TD></TR>
+<TR><TD>Cohen-Macaulay?</TD><TD>yes</TD></TR>
+<TR><TD>topology</TD><TD>3-ball</TD></TR>
+<TR><TD>f-vector</TD><TD>(1,380,1929,2722,1172)</TD></TR>
+<TR><TD>h-vector</TD><TD>(1,376,795,0,0)</TD></TR>
+<TR><TD>made by</TD><TD>基本的にFurch</TD></TR>
+</TABLE>
+
+<DT>参考文献</DT>
+<DD>G.M.Ziegler,
+    Shelling polyhedral 3-balls and 4-polytopes,
+    Discrete Comput. Geom. 19 (1998), 159-174.
+<DD>M.Hachimori,
+    Nonconstructible simplicial balls and a way of testing constructibility,
+    Discrete Comput. Geom. 22 (1999), 223-230.
+
+</DD>
+
+
+<HR>
+<A HREF="index.html">戻る</A>
+
+</BODY>
+</HTML>
+
+

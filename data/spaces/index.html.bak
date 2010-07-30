@@ -1,0 +1,101 @@
+<HTML>
+<HEAD>
+<TITLE>Simplicial Complex Library</TITLE></HEAD>
+
+<BODY>
+<H1>単体的複体ライブラリー</H1> [<A href="index_eng.html">English here</A>]
+<P>
+このページは種々の論文の中から興味深い単体的複体の記述を抜き出して
+データとして集めたものです。
+<P>
+下の表の中のデータ名からそのデータを記述したページにリンクが張られていて、
+それらのページからデータへのリンクがあります。<BR>
+各単体的複体のデータはファセットのリストで与えてあります。
+
+<P>
+[各種データ]<BR>
+<TABLE BORDER>
+<TR><TD><TT><A href="poincare.html">poincare</A></TT></TD>
+<TD>ポアンカレ球面</TD>
+             </TR>
+<TR><TD><TT><A href="nonpl_sphere.html">nonpl_sphere</A></TT></TD>
+<TD>Non-PL球面</TD>
+             </TR>
+<TR><TD><TT><A href="knot.html">knot</A></TT></TD>
+<TD>結び目の穴の空いた3次元球体</TD>
+             </TR>
+<TR><TD><TT><A href="bing.html">bing</A></TT></TD>
+<TD>Bingの家</TD>
+             </TR>
+<TR><TD><TT><A href="nc_sphere.html">nc_sphere</A></TT></TD>
+<TD>結び目の埋め込まれた3次元球面</TD>
+             </TR>
+<TR><TD><TT><A href="rudin.html">rudin</A></TT></TD>
+<TD>Rudinの球体</TD>
+             </TR>
+<TR><TD><TT><A href="gruenbaum.html">gruenbaum</A></TT></TD>
+<TD>Grunbaumの球体</TD>
+             </TR>
+<TR><TD><TT><A href="ziegler.html">ziegler</A></TT></TD>
+<TD>Zieglerの球体</TD>
+             </TR>
+<TR><TD><TT><A href="lockeberg.html">lockeberg</A></TT></TD>
+<TD>Lockebergの多面体</TD>
+             </TR>
+<TR><TD><TT><A href="mani-walkup-C.html">mani-walkup-C</A></TT></TD>
+<TD>Mani&Walkupの球面</TD>
+             </TR>
+<TR><TD><TT><A href="mani-walkup-D.html">mani-walkup-D</A></TT></TD>
+<TD>Mani&Walkupの球面</TD>
+             </TR>
+<TR><TD><TT><A href="projective.html"> projective</A></TT></TD>
+<TD>射影平面</TD>
+             </TR>
+<TR><TD><TT><A href="dunce_hat.html">dunce_hat</A></TT></TD>
+<TD>ダンス・ハット</TD>
+             </TR>
+<TR><TD><TT><A href="bjorner.html">bjorner</A></TT></TD>
+<TD>Bjornerの例</TD>
+             </TR>
+<TR><TD><TT><A href="nonextend.html">nonextend</A></TT></TD>
+<TD>Hachimoriの例</TD>
+             </TR>
+<TR><TD><TT><A href="c-ns.html">c-ns</A></TT></TD>
+<TD>Hachimoriの例</TD>
+             </TR>
+<TR><TD><TT><A href="c-ns2.html">c-ns2</A></TT></TD>
+<TD>Hachimoriの例</TD>
+             </TR>
+<TR><TD><TT><A href="c-ns3.html">c-ns3</A></TT></TD>
+<TD>Hachimoriの例</TD>
+             </TR>
+<TR><TD><TT><A href="simon.html">simon</A></TT></TD>
+<TD>Simonの例</TD>
+             </TR>
+<TR><TD><TT><A href="simon2.html">simon2</A></TT></TD>
+<TD>Simonの例</TD>
+             </TR>
+<TR><TD><TT><A href="moriyama-takeuchi/moriyama-takeuchi.html">
+             moriyama-takeuchi</A></TT>
+<TD>Moriyama&Takeuchiの例</TD>
+             </TR>
+</TABLE>
+
+<HR>
+<UL>
+<LI>
+新しい情報、間違いの訂正、データについての質問、ご意見などありましたら<BR>
+<A HREF="mailto:hachi@qci.jst.go.jp">hachi@qci.jst.go.jp</A><BR>
+まで御連絡下さい。
+<LI>
+現在(2001.6.19)の全データ(というかこのディレクトリのファイル全部)を
+<A href="../../archives/library.tar.gz">library.tar.gz</A>
+にまとめてあります。
+</UL>
+<HR>
+<A HREF="../../index_jp.html">トップに戻る</A>
+
+</BODY>
+</HTML>
+
+

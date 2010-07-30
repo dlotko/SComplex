@@ -1,0 +1,63 @@
+# The boundary complex of 4-polytope
+# which is not vertex decomposable.
+# Made by Lockeberg in his Ph.D. Thesis.
+# The following data is taken from
+#   V.Klee and P.Kleinschmidt, "d-step conjecture and its relatives",
+#   Math. Oper. Res., 12(1987), 718-755.
+# (renumberred "a,b,c,..." into "1,2,3,..." and sorted.)
+#
+# Remark:
+#   I think the facet "a e j k" in the paper should be "a e h k"
+#   because the original data written there is not a sphere.
+#   So in the following list, I changed "1 5 10 11" into "1 5 8 11".
+#                                                     (M.Hachimori)
+# f=(1,12,60,96,48).
+#
+1 2 3 9 
+1 2 3 11 
+1 2 8 9 
+1 2 8 11 
+1 3 9 11 
+1 4 5 11 
+1 4 5 12 
+1 4 9 11 
+1 4 9 12 
+1 5 8 11
+1 5 8 12 
+1 6 7 8 
+1 6 7 12 
+1 6 8 12 
+1 7 8 9 
+1 7 9 12 
+2 3 4 5 
+2 3 4 9 
+2 3 5 10 
+2 3 8 10 
+2 3 8 11 
+2 4 5 9 
+2 5 6 10 
+2 5 6 12 
+2 5 9 12 
+2 6 9 10 
+2 6 9 12 
+2 7 8 9 
+2 7 8 10 
+2 7 9 10 
+3 4 5 6 
+3 4 6 10 
+3 4 7 10 
+3 4 7 11 
+3 4 9 11 
+3 5 6 10 
+3 7 8 10 
+3 7 8 11 
+4 5 6 7 
+4 5 7 8 
+4 5 8 11 
+4 5 9 12 
+4 6 7 10 
+4 7 8 11 
+5 6 7 8 
+5 6 8 12 
+6 7 9 10 
+6 7 9 12 

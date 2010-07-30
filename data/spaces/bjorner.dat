@@ -1,0 +1,18 @@
+# Bjorner's example of shellable but not extendably shellable
+# 2-complex. Taken from
+#    "The homology and shellability of matroids and geometric lattices,"
+#    in "Matroid Applications", N.White ed., Cambridge Univ. Press (1992),
+#    226-283.  (Exercise 7.37.)
+# This is a projective plane plus additional facet "1 2 3".
+#   f=(1,6,15,11).
+1 2 3
+1 2 5
+1 2 6
+1 3 4
+1 3 6
+1 4 5
+2 3 4
+2 3 5
+2 4 6
+3 5 6
+4 5 6

@@ -1,0 +1,71 @@
+<HTML>
+<HEAD>
+<TITLE>Non-PL sphere</TITLE></HEAD>
+
+<BODY>
+<H1>Non-PL sphere</H1>
+
+<DL>
+<DT>記述</DT>
+<DD>
+単体の境界と区分的に線形な同相写像を有する球面をPL球面という。
+3次元以下の球面はすべてPLであるが、5次元以上だとPLでない球面も
+存在することが知られている。その有名な構成方法が「二重懸垂定理」
+で、ホモロジー球面(球面と同じホモロジーを持つ多様体)を2回サスペンション
+をとると球面と同相になるというもので、こうして得られた球面は
+もとのホモロジー球面が球面でない場合、PLではないことが知られている。<BR>
+
+ここで与えるデータはポアンカレ球面を2回サスペンションしたもので、
+<A href="poincare.html">poincare.dat</A>と同様、BjornerとLutz
+によって与えられたもの。これは、通常2頂点を追加してサスペンションを
+とるところを1頂点しか追加しないでサスペンションをとるという
+「<A href="suspension.html">1点サスペンション(Dattaのトリック)</A>」という手法を用いている。
+この手法により、彼らの得た16頂点からなるポアンカレ球面の三角形分割
+をもとにして、18頂点からなる5次元のnon-PL球面の三角形分割が
+得られている。(ファセットは269個。)
+</DD>
+<DT>組合せ分割に関して</DT>
+<DD>
+Constructibleな多様体はPLな球面か球体になるので、PLでない球面の
+三角形分割はconstructibleではない。しかし、Cohen-Macaulayという
+性質の方は同相性で不変なのでCohen-Macaulayではある。
+</DD>
+<DT>データ</DT>
+<DD>
+<A href="nonpl_sphere.dat">nonpl_sphere.dat</A>
+</DD>
+<DT>表</DT>
+<DD>
+<TABLE BORDER>
+<TR><TD>vertex decomposable?</TD><TD>no</TD></TR>
+<TR><TD>extendably shellable?</TD><TD>no</TD></TR>
+<TR><TD>shellable?</TD><TD>no</TD></TR>
+<TR><TD>constructible?</TD><TD>no</TD></TR>
+<TR><TD>Cohen-Macaulay?</TD><TD>yes</TD></TR>
+<TR><TD>topology</TD><TD>non-PL 5-sphere</TD></TR>
+<TR><TD>f-vector</TD><TD>(1,18,141,515,930,807,269)</TD></TR>
+<TR><TD>h-vector</TD><TD>(1,12,66,111,66,12,1)</TD></TR>
+<TR><TD>made by</TD><TD>Edwards, 三角形分割はBjorner&Lutz</TD></TR>
+</TABLE>
+</DD>
+
+<DT>参考文献</DT>
+<DD>A.Bjorner and F.H.Lutz,
+    Simplicial manifolds, bistellar flips and a 16-vertex
+    triangulation of the Poincar\'e homology 3-sphere",
+    to appear in Experimental Mathematics.
+<DD>F.H.Lutz,
+    Triangulated manifolds with few vertices and vertex-transitive group actions
+,
+    Shaker Verlag (1999).
+
+</DL>
+
+
+<HR>
+<A HREF="index.html">戻る</A>
+
+</BODY>
+</HTML>
+
+

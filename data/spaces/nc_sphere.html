@@ -1,0 +1,71 @@
+<HTML>
+<HEAD>
+<TITLE>3-Sphere with a 3-edged knot</TITLE></HEAD>
+
+<BODY>
+<H1>3辺からなる結び目を持つ3次元球面</H1>
+
+<DL>
+
+	<DD>
+Shellableでない球面の三角形分割の存在はLickorish(1991)によって
+示されたが、それは「3次元球面の三角形分割中に3辺からなる結び目で
+十分に複雑なものが含まれていたらshellableでない」という言明だった。
+このような、結び目を3辺で埋め込むような3次元球面の三角形分割は
+下のような構成法が知られている。
+<CENTER><IMG src="knot_in_sphere.gif" width=631 height=339></CENTER>
+まず、<A href="knot.html">Furchの球体</A>の構成法にしたがって、
+1辺からなる結ばったspanning arcを持つ3次元球体の三角形分割を
+作る(上図左)。これに新しい頂点vを加え、vから球体の境界上の三角形にむけて
+ピラミッドを作っていく。vから境界上のすべての三角形にピラミッドを
+作ると、これは3次元球面の三角形分割になる。(ユークリッド空間に
+無限遠点を加えてコンパクト化するようなものと考えればよい。)
+このとき、もとの結ばったspanning arcをなす1辺と、その両端点から
+vまで結ぶ2つの辺の3辺で結び目が出来ている。
+<P>
+下で与えているデータは<A href="knot.html">knot.dat</A>に1点を付け加えて
+球面化したもので、381頂点、1928ファセットで出来ている。
+</DD>
+<DT>組合せ分割に関して</DT>
+<DD>
+もともとは、3辺からなる結び目が「十分に複雑な」時にshellableでなくなる
+という定理であったが、実は、複雑でなくでも結ばってさえいなければshellable
+ではない。さらに、constructibleでもないことまで示されている。
+</DD>
+<DT>データ</DT>
+<DD>
+<A href="nc_sphere.dat">nc_sphere.dat</A>
+</DD>
+<DT>表</DT>
+<DD>
+<TABLE BORDER>
+<TR><TD>vertex decomposable?</TD><TD>no</TD></TR>
+<TR><TD>extendably shellable?</TD><TD>no</TD></TR>
+<TR><TD>shellable?</TD><TD>no</TD></TR>
+<TR><TD>constructible?</TD><TD>no</TD></TR>
+<TR><TD>Cohen-Macaulay?</TD><TD>yes</TD></TR>
+<TR><TD>topology</TD><TD>3-sphere</TD></TR>
+<TR><TD>f-vector</TD><TD>(1,381,2309,3856,1928)</TD></TR>
+<TR><TD>h-vector</TD><TD>(1,377,1172,377,1)</TD></TR>
+<TR><TD>made by</TD><TD>Lickorish (またはfolklore)</TD></TR>
+</TABLE>
+</DD>
+
+<DT>参考文献</DT>
+<DD>W.B.R.Lickorish,
+    Unshellable triangulations of spheres,
+    Europ. J. Cominatorics 12 (1991), 527-530.
+<DD>M.Hachimori and G.M.Ziegler,
+    Decompositions of balls and spheres with knots consisting of few edges,
+    Math. Z., to appear.
+
+</DL>
+
+
+<HR>
+<A HREF="index.html">戻る</A>
+
+</BODY>
+</HTML>
+
+

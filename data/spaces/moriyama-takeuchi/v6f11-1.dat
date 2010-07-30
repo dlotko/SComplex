@@ -1,0 +1,21 @@
+# Moriyama-Takeuchi example of a 2-dim simplicial complex.
+#   V6F11-1
+#
+# taken from:
+#  Sonoko Moriyama, "Extendable shellability in dimension two",
+#  Bachelor's thesis, University of Tokyo, 2000.
+# and
+#  Sonoko Moriyama and Fumihiko Takeuchi, "Incremental construction
+#    properties in dimension two --- shellability, extendable shellability
+#    and vertex decomposability", preprint.
+1 2 4
+1 2 6
+1 3 4
+1 3 5
+2 3 5
+2 3 6
+2 4 5
+2 5 6
+3 4 6
+3 5 6
+4 5 6
